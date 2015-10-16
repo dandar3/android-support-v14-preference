@@ -1,5 +1,5 @@
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/preference-v14/23.0.1/preference-v14-23.0.1.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/preference-v14/23.1.0/preference-v14-23.1.0.aar`
 
 Requires (to compile):<br/>
 `Android 6.0 (API 23) SDK Platform`
@@ -11,7 +11,7 @@ Requires libraries:</br>
 * [dandar3/android-support-v7-preference](https://github.com/dandar3/android-support-v7-preference)
 
 Subversion checkout URL:<br/>
-* https://github.com/dandar3/android-support-v14-preference/tags/23.0.1
+* https://github.com/dandar3/android-support-v14-preference/tags/23.1.0
 
 References:
 * https://developer.android.com/tools/support-library/index.html#revisions

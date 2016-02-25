@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v14/preference/res/values/colors.xml -->
-    <eat-comment/>
     <color name="preference_fallback_accent_color">#ff80cbc4</color>
     <declare-styleable name="MultiSelectListPreference"><attr name="entries"/><attr name="android:entries"/><attr name="entryValues"/><attr name="android:entryValues"/></declare-styleable>
+    <declare-styleable name="PreferenceFragment"><attr name="android:layout"/><attr name="android:divider"/><attr name="android:dividerHeight"/></declare-styleable>
     <declare-styleable name="SwitchPreference"><attr name="summaryOn"/><attr name="android:summaryOn"/><attr name="summaryOff"/><attr name="android:summaryOff"/><attr name="switchTextOn"/><attr name="android:switchTextOn"/><attr name="switchTextOff"/><attr name="android:switchTextOff"/><attr name="disableDependentsState"/><attr name="android:disableDependentsState"/></declare-styleable>
-    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v14/preference/res/values/styles.xml -->
-    <eat-comment/>
     <style name="Preference.Category.Material">
         <item name="android:layout">@layout/preference_category_material</item>
     </style>
@@ -41,17 +38,21 @@
     <style name="Preference.SwitchPreferenceCompat.Material">
         <item name="android:layout">@layout/preference_material</item>
     </style>
+    <style name="PreferenceFragment.Material">
+        <item name="android:divider">@drawable/preference_list_divider_material</item>
+    </style>
     <style name="PreferenceFragmentList.Material">
         <item name="android:paddingLeft">0dp</item>
         <item name="android:paddingRight">0dp</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v14/preference/res/values/themes.xml -->
-    <eat-comment/>
     <style name="PreferenceThemeOverlay.v14">
         <item name="switchPreferenceStyle">@style/Preference.SwitchPreference</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragment</item>
     </style>
     <style name="PreferenceThemeOverlay.v14.Material">
         <item name="preferenceScreenStyle">@style/Preference.PreferenceScreen.Material</item>
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment.Material</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragment.Material</item>
         <item name="preferenceCategoryStyle">@style/Preference.Category.Material</item>
         <item name="preferenceStyle">@style/Preference.Material</item>
         <item name="preferenceInformationStyle">@style/Preference.Information.Material</item>
@@ -62,8 +63,6 @@
         <item name="editTextPreferenceStyle">@style/Preference.DialogPreference.EditTextPreference.Material</item>
         <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v14/preference/res/values/styles.xml -->
-    <eat-comment/>
     <style name="Preference_TextAppearanceMaterialBody2">
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">sans-serif</item>

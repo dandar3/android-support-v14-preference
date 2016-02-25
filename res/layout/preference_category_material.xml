@@ -25,4 +25,3 @@
     android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
     android:paddingRight="?android:attr/listPreferredItemPaddingRight"
     android:paddingTop="16dip" />
-<!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v14/preference/res/layout/preference_category_material.xml -->

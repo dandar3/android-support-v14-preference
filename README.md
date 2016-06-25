@@ -12,10 +12,10 @@ Eclipse library project based on:<br/>
 
 **References:**
 - https://developer.android.com/topic/libraries/support-library/revisions.html
-- https://developer.android.com/topic/libraries/support-library/features.html##v14-preference
+- https://developer.android.com/topic/libraries/support-library/features.html#v14-preference
 
-**SVN checkout:
-- `Eclipse ADT`
+**SVN checkout:**
+- `Eclipse ADT`<br/>
   https://github.com/dandar3/android-support-v14-preference/tags/24.0.0
-- `Eclipse Andmore`
+- `Eclipse Andmore`<br/>
   https://github.com/dandar3/android-support-v14-preference/tags/24.0.0_andmore

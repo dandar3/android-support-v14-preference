@@ -15,6 +15,9 @@
     <style name="Preference.DialogPreference.Material">
         <item name="android:layout">@layout/preference_material</item>
     </style>
+    <style name="Preference.DropDown.Material">
+        <item name="android:layout">@layout/preference_dropdown_material</item>
+    </style>
     <style name="Preference.Information.Material">
         <item name="android:layout">@layout/preference_information_material</item>
         <item name="android:enabled">false</item>
@@ -60,6 +63,7 @@
         <item name="switchPreferenceStyle">@style/Preference.SwitchPreference.Material</item>
         <item name="dialogPreferenceStyle">@style/Preference.DialogPreference.Material</item>
         <item name="editTextPreferenceStyle">@style/Preference.DialogPreference.EditTextPreference.Material</item>
+        <item name="dropdownPreferenceStyle">@style/Preference.DropDown.Material</item>
         <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
     </style>
     <style name="Preference_TextAppearanceMaterialBody2">

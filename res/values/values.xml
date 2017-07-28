@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="preference_fallback_accent_color">#ff80cbc4</color>
-    <declare-styleable name="PreferenceFragment"><attr name="android:layout"/><attr name="android:divider"/><attr name="android:dividerHeight"/></declare-styleable>
+    <declare-styleable name="PreferenceFragment"><attr name="android:layout"/><attr name="android:divider"/><attr name="android:dividerHeight"/><attr name="allowDividerAfterLastItem"/></declare-styleable>
     <declare-styleable name="SwitchPreference"><attr name="summaryOn"/><attr name="android:summaryOn"/><attr name="summaryOff"/><attr name="android:summaryOff"/><attr name="switchTextOn"/><attr name="android:switchTextOn"/><attr name="switchTextOff"/><attr name="android:switchTextOff"/><attr name="disableDependentsState"/><attr name="android:disableDependentsState"/></declare-styleable>
     <style name="Preference.Category.Material">
         <item name="android:layout">@layout/preference_category_material</item>
@@ -28,6 +28,11 @@
     </style>
     <style name="Preference.PreferenceScreen.Material">
         <item name="android:layout">@layout/preference_material</item>
+    </style>
+    <style name="Preference.SeekBarPreference.Material">
+        <item name="android:layout">@layout/preference_widget_seekbar_material</item>
+        <item name="adjustable">true</item>
+        <item name="showSeekBarValue">true</item>
     </style>
     <style name="Preference.SwitchPreference">
         <item name="android:widgetLayout">@layout/preference_widget_switch</item>
@@ -61,6 +66,7 @@
         <item name="checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference.Material</item>
         <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat.Material</item>
         <item name="switchPreferenceStyle">@style/Preference.SwitchPreference.Material</item>
+        <item name="seekBarPreferenceStyle">@style/Preference.SeekBarPreference.Material</item>
         <item name="dialogPreferenceStyle">@style/Preference.DialogPreference.Material</item>
         <item name="editTextPreferenceStyle">@style/Preference.DialogPreference.EditTextPreference.Material</item>
         <item name="dropdownPreferenceStyle">@style/Preference.DropDown.Material</item>
